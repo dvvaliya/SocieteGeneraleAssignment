@@ -12,15 +12,28 @@ export const HomeScreen: React.FC<HomeStackNavProps<'HomeScreen'>> = ({
   navigation,
   route,
 }) => {
-  const checkToken = async () => {
-    const fcmToken = await messaging().getToken()
-    if (fcmToken) {
-      console.log(fcmToken)
+  //permission for push notifications to include in iOS
+  const requestUserPermission = async () => {
+    const authorizationStatus = await messaging().requestPermission({
+      sound: true,
+      announcement: true,
+      providesAppNotificationSettings: true,
+      alert: true,
+    })
+
+    if (authorizationStatus) {
+      // To retreive token from firebase
+      const token = messaging()
+        .getToken()
+        .then(value => {})
+
+      // Listen to whether the token changes
+      const tokenRefresh = messaging().onTokenRefresh(token => {})
     }
   }
 
   useEffect(() => {
-    checkToken()
+    requestUserPermission()
   }, [])
 
   useEffect(() => {

@@ -1,6 +1,5 @@
 import React, { useRef, useState } from 'react'
 import { Alert, KeyboardAvoidingView, ScrollView, Text, View } from 'react-native'
-import { SafeAreaView } from 'react-native-safe-area-context'
 
 import { styles } from './style'
 import { AuthErrorCodes, ROUTES, Strings } from '@constants'
@@ -22,7 +21,6 @@ export const SignInScreen: React.FC<AuthStackNavProps<'SignInScreen'>> = ({
 }) => {
   const emailRef = useRef()
   const passwordRef = useRef()
-  const [errorText, setErrorText] = useState('')
   const [isLoading, setLoading] = useState(false)
   const dispatch = useDispatch()
   const [validate, setValidate] = useState([
