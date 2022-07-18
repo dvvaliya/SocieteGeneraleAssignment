@@ -1,0 +1,14 @@
+{
+  "SIGN_IN_WELCOME_BACK": "Welcome back!",
+  "SIGN_IN_TITLE": "Login to Societe Generale.",
+  "ENTER_VALID_EMAIL_ID": "Please enter a valid email id",
+  "VALIDATION_GREATER_THAN_EIGHT": "*Password should be 8-20 characters",
+  "ENTER_VALID_SOCIAL_SECURITY_NUMBER": "*Please enter a valid social security number",
+  "PASSWORD": "Password",
+  "EMAIL_1": "Email",
+  "ENTER_EMAIL_PASSWORD": "Enter you email and password.",
+  "PRICE":"Price: X",
+  "ERROR":"Error!",
+  "HOME":"Home",
+  "LOADING":"Loading.."
+}

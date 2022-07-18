@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "981387169400",
+    "project_id": "societegeneraleassignmement",
+    "storage_bucket": "societegeneraleassignmement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981387169400:android:266ea2730b08712dc2678d",
+        "android_client_info": {
+          "package_name": "com.societegeneraleassignment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981387169400-7jnebgki3n474jftt7rqeckfd4bv2l0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdU8UJKGIinFc1cwLuyNDadNbULrD-zIM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981387169400-7jnebgki3n474jftt7rqeckfd4bv2l0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
